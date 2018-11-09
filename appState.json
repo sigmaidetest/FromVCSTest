@@ -1,0 +1,71 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "083480d2-e679-471d-8654-be110a07b02d": {
+        "id": "083480d2-e679-471d-8654-be110a07b02d",
+        "parent": null,
+        "name": "FromVCSTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "82c4917e-3451-450e-ab49-38e4cab3c22c"
+        ],
+        "isRemovable": false,
+        "filePath": "FromVCSTest"
+      },
+      "82c4917e-3451-450e-ab49-38e4cab3c22c": {
+        "id": "82c4917e-3451-450e-ab49-38e4cab3c22c",
+        "parent": "083480d2-e679-471d-8654-be110a07b02d",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FromVCSTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    console.log(\"Hello\");\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "083480d2-e679-471d-8654-be110a07b02d",
+    "openFiles": [
+      "82c4917e-3451-450e-ab49-38e4cab3c22c"
+    ],
+    "currentFileId": "82c4917e-3451-450e-ab49-38e4cab3c22c",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "82c4917e-3451-450e-ab49-38e4cab3c22c"
+  },
+  "PROJECT_META": {
+    "projectName": "FromVCSTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1541746645145
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "FromVCSTest",
+      "url": "https://github.com/sigmaidetest/FromVCSTest"
+    }
+  }
+}
