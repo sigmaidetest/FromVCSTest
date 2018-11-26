@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "82c4917e-3451-450e-ab49-38e4cab3c22c"
+          "82c4917e-3451-450e-ab49-38e4cab3c22c",
+          "e392ec12-0c33-424f-8910-3f306f6f7b8d"
         ],
         "isRemovable": false,
         "filePath": "FromVCSTest"
@@ -29,14 +30,34 @@
           "timeout": 60,
           "memory": 128
         }
+      },
+      "e392ec12-0c33-424f-8910-3f306f6f7b8d": {
+        "id": "e392ec12-0c33-424f-8910-3f306f6f7b8d",
+        "parent": "083480d2-e679-471d-8654-be110a07b02d",
+        "name": "dwd.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FromVCSTest/dwd.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "FromVCSTest/.js"
+    ],
     "rootNode": "083480d2-e679-471d-8654-be110a07b02d",
     "openFiles": [
-      "82c4917e-3451-450e-ab49-38e4cab3c22c"
+      "82c4917e-3451-450e-ab49-38e4cab3c22c",
+      "e392ec12-0c33-424f-8910-3f306f6f7b8d"
     ],
-    "currentFileId": "82c4917e-3451-450e-ab49-38e4cab3c22c",
+    "currentFileId": "e392ec12-0c33-424f-8910-3f306f6f7b8d",
     "resources": {},
     "envVariables": [
       {
@@ -59,7 +80,8 @@
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
-    "lastSave": 1541746645145
+    "lastSave": 1543212686850,
+    "platformRegions": {}
   },
   "VCS_STATE": {
     "provider": "GitHub",
